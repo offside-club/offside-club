@@ -1,0 +1,20 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/components/body/components/benefits/Benefits": "pages/components/body/components/benefits/Benefits.js",
+  "/api/hello": "pages/api/hello.js",
+  "/components/body/components/card/Card": "pages/components/body/components/card/Card.js",
+  "/components/body/components/card/mockFeatureCards": "pages/components/body/components/card/mockFeatureCards.js",
+  "/components/body/components/feature/Feature": "pages/components/body/components/feature/Feature.js",
+  "/components/body/components/testimonialCard/TestimonyCard": "pages/components/body/components/testimonialCard/TestimonyCard.js",
+  "/components/body/components/testimonialCard/mockTestimony": "pages/components/body/components/testimonialCard/mockTestimony.js",
+  "/components/body/components/testimonial/Testimonial": "pages/components/body/components/testimonial/Testimonial.js",
+  "/components/body": "pages/components/body.js",
+  "/components/footer/Footer": "pages/components/footer/Footer.js",
+  "/components/footer": "pages/components/footer.js",
+  "/components/header": "pages/components/header.js",
+  "/": "pages/index.js",
+  "/components/body/Body": "pages/components/body/Body.js",
+  "/_document": "pages/_document.js",
+  "/components/header/Header": "pages/components/header/Header.js"
+}
