@@ -1,5 +1,4 @@
 {
-  "homepage": "https://offside-club.github.io/offside-club",
   "name": "offside",
   "version": "0.1.0",
   "private": true,
@@ -8,9 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next dev && next export",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "export": "next dev && next export"
   },
   "dependencies": {
     "next": "12.3.1",
