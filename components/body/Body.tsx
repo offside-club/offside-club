@@ -30,7 +30,12 @@ export const Body = (): ReactElement => (
           <a className={styles.appStore}>
             <Image src={AppStore} alt="AppStore" />
           </a>
-          <a className={styles.googlePlay}>
+          <a
+            className={styles.googlePlay}
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image src={GooglePlay} alt="GooglePlay" />
           </a>
         </div>
@@ -49,7 +54,7 @@ export const Body = (): ReactElement => (
     </div>
     <Feature />
     <Benefits />
-    <Testimonial />
+    {/* <Testimonial /> */}
   </div>
 );
 

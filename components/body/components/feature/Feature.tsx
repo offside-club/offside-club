@@ -16,8 +16,14 @@ export const Feature = (): ReactElement => {
       </div>
       <div className={styles.featureCardsContainer}>
         {CARDS.map((card) => (
-          <Card key={card.id} header={card.header} subHeader={card.subHeader} />
+          <Card
+            key={card.id}
+            id={card.id}
+            header={card.header}
+            subHeader={card.subHeader}
+          />
         ))}
+        <br/>
       </div>
       <div className={styles.star}>
         <Image src={Star} alt="feature sparkle icon" />

@@ -1,17 +1,17 @@
 export const CARDS = [
   {
-    id: "1",
+    id: "CHAT",
     header: "Match details",
     subHeader: "Get detailed match statistics along with chat",
   },
   {
-    id: "2",
-    header: "Non-money predictions",
-    subHeader: "Engage with your friends and match through live predictions",
+    id: "THUMB",
+    header: "Predictions",
+    subHeader: "Participate in non-money live prediction events",
   },
   {
-    id: "3",
-    header: "Guided chat",
-    subHeader: "Tasteful elements to mix and match for an elevated look",
+    id: "CONVERSATION",
+    header: "'Game' chat",
+    subHeader: "Chat mechanism designed for seamless discussions during live games",
   },
 ];
