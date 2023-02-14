@@ -27,7 +27,7 @@ const HomeSection = () => {
                         </Row>
                     </Col>
                     <Col className='d-flex justify-content-center' xs={12} md={7}>
-                        <Image src={HomeScreenIllustration} className="home-illustration" />
+                        <Image src={HomeScreenIllustration} className="illustration" />
                     </Col>
                 </Row>
             </MainContainer>

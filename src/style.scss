@@ -43,6 +43,10 @@ body {
     width: 100px;
 }
 
+.illustration {
+    width: 100%;
+}
+
 // *************************************************HOME SECTION*************************************************
 .store-logos-home {
     max-width: 300px;
@@ -56,10 +60,6 @@ body {
 
 .play-store-logo-home {
     height: 35px;
-}
-
-.home-illustration {
-    width: 100%;
 }
 
 // ****************************************************REWARDS****************************************************
@@ -116,7 +116,7 @@ $services-icon-size: 30%;
         width: 150px;
     }
 
-    .home-illustration {
+    .illustration {
         width: 80%;
     }
 

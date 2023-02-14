@@ -16,7 +16,7 @@ const Services = () => {
                 <Container>
                     <Row>
                         <Col xs={12} lg={6}>
-                            <Image src={ServicesIllustration} width="100%" />
+                            <Image src={ServicesIllustration} className="illustration" />
                         </Col>
                         <Col xs={12} lg={6}>
                             <ServicesCards />
