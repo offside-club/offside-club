@@ -4,7 +4,7 @@ import './style.scss';
 import Home from './components/home/Home';
 import Services from './components/services/Services';
 import Rewards from './components/rewards/Rewards';
-import Testimonials from './components/testimonials/Testimonials';
+// import Testimonials from './components/testimonials/Testimonials';
 import Footer from './components/footer/Footer';
 import './assets/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf'
 
@@ -14,7 +14,7 @@ const App = () => {
       <Home />
       <Services />
       <Rewards />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer />
     </React.Fragment>
   );
