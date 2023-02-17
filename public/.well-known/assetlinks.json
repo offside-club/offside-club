@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.offsideclub",
+    "sha256_cert_fingerprints":
+    ["ED:E6:68:94:15:C9:8D:44:D0:80:57:4E:87:08:F7:D3:8E:35:E4:EE:9C:E3:55:1A:47:31:AB:1B:C8:9F:20:F4"]
+  }
+}]
