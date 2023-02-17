@@ -21,8 +21,16 @@ const HomeSection = () => {
                         <Row className='mt-4 pt-md-5 store-logos-home'>
                             <h6 className='text-white'>Download the Offside app</h6>
                             <Row>
-                                <Col xs={6} sm={4} md={6} lg={5}><Image src={AppStoreLogo} className="app-store-logo-home" /></Col>
-                                <Col xs={6} sm={8} md={6} lg={7}><Image src={PlayStoreLogo} className="play-store-logo-home" /></Col>
+                                <Col xs={6} sm={4} md={6} lg={5}>
+                                    <a href="https://apps.apple.com/in/app/offsideclub/id6444310420" target="_blank" rel="noopener noreferrer">
+                                        <Image src={AppStoreLogo} className="app-store-logo-home" />
+                                    </a>
+                                </Col>
+                                <Col xs={6} sm={8} md={6} lg={7}>
+                                    <a href="https://play.google.com/store/apps/details?id=com.offsideclub" target="_blank" rel="noopener noreferrer">
+                                        <Image src={PlayStoreLogo} className="play-store-logo-home" />
+                                    </a>
+                                </Col>
                             </Row>
                         </Row>
                     </Col>
