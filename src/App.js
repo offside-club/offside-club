@@ -7,10 +7,12 @@ import Rewards from './components/rewards/Rewards';
 // import Testimonials from './components/testimonials/Testimonials';
 import Footer from './components/footer/Footer';
 import './assets/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf'
+import NavBar from './components/Navbar/NavBar';
 
 const App = () => {
   return (
     <React.Fragment>
+      <NavBar />
       <Home />
       <Services />
       <Rewards />

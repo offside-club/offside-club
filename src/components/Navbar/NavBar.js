@@ -6,11 +6,11 @@ import LogoNavbar from '../../assets/images/offside_logo_main.svg';
 const NavBar = () => {
     return (
         <React.Fragment>
-            <Navbar bg="secondary" variant="dark">
+            <Navbar bg="secondary" variant="dark" fixed="top">
                 <Container>
                     <Navbar.Brand href="/">
                         <img
-                            alt=""
+                            alt="Logo"
                             src={LogoNavbar}
                             className="d-inline-block align-top navbar-logo"
                         />
