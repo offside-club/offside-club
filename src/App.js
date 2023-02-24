@@ -1,6 +1,5 @@
 import React from 'react';
-// import './App.css';
-import './style.scss';
+import './styles/style.scss';
 import Home from './components/home/Home';
 import Services from './components/services/Services';
 import Rewards from './components/rewards/Rewards';
@@ -15,9 +14,9 @@ const App = () => {
       <NavBar />
       <Home />
       <Services />
-      <Rewards />
+      {/* <Rewards /> */}
       {/* <Testimonials /> */}
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 };

@@ -7,6 +7,9 @@ import ServicesIllustration from '../../assets/images/services_illustration.svg'
 import ServicesCards from './ServicesCards/ServicesCards';
 import MainContainer from '../../util/MainContainer';
 import Typography from '../../util/Typography';
+import ServicesCircle from './ServicesCircle/ServicesCircle';
+import GameHub from './GameHub/GameHub';
+import IntroVideo from './IntroVideo/IntroVideo';
 
 const Services = () => {
     return (
@@ -19,8 +22,15 @@ const Services = () => {
                             <Image src={ServicesIllustration} className="illustration" />
                         </Col>
                         <Col xs={12} lg={6}>
-                            <ServicesCards />
+                            {/* <ServicesCards /> */}
+                            <ServicesCircle />
                         </Col>
+                    </Row>
+                    <Row>
+                        <GameHub />
+                    </Row>
+                    <Row className='my-3 my-md-5'>
+                        <IntroVideo />
                     </Row>
                 </Container>
             </MainContainer>
