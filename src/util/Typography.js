@@ -3,7 +3,7 @@ import React from 'react';
 const HeadingExtraBold = ({ children, classes, styles }) => {
     return (
         <React.Fragment>
-            <h1 className={`display-4 text fs-1 fw-bold mb-1 mb-md-2 ${classes && classes.join(" ")}`} style={styles}>{children}</h1>
+            <h1 className={`display-1 text fs-1 fw-bold mb-1 mb-md-2 ${classes && classes.join(" ")}`} style={styles}>{children}</h1>
         </React.Fragment>
     );
 };

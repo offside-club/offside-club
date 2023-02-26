@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import MainContainer from '../../util/MainContainer';
 import Typography from '../../util/Typography';
 import StoreLogos from '../../util/StoreLogos';
+import OffsideBlue from '../../assets/images/offsideblue.svg';
 
 const HomeSection = () => {
     return (
@@ -13,13 +14,17 @@ const HomeSection = () => {
             <MainContainer>
                 <Row className='mb-md-5 pb-md-5 home-container'>
                     <Col>
+                        <Image src={OffsideBlue} width="80%" />
                         <Row className='pt-md-5'>
-                            <Typography.HeadingExtraBold>Can't Wait to Talk About the Match?</Typography.HeadingExtraBold>
-                            <Typography.HeadingExtraBold classes={['text-primary']}>Meet Your Friends on Offside!</Typography.HeadingExtraBold>
+                            <Typography.HeadingExtraBold>Unforgettable <br /> matches,</Typography.HeadingExtraBold>
+                            <Typography.HeadingExtraBold classes={['text-primary']}>unforgettable <br /> chats.</Typography.HeadingExtraBold>
                         </Row>
-                        <Row className='mt-4 pt-md-5 store-logos-home'>
+                        <Row className='mt-2 pt-md-2 store-logos-home'>
                             <h6 className='text-white'>Download the Offside app</h6>
                             <StoreLogos />
+                        </Row>
+                        <Row>
+                            <Typography.HeadingRegular classes={['fw-bold text-primary']}>Your virtual hangout with friends</Typography.HeadingRegular>
                         </Row>
                     </Col>
                     <Col className='d-flex justify-content-center' xs={12} md={7}>
