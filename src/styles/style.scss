@@ -1,10 +1,5 @@
 // Importing fonts
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
-
-@font-face {
-    font-family: "Neue-Ultrabold";
-    src: url("../assets/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 $color1: #3783eb;
 $color2: #21252a;
@@ -27,12 +22,12 @@ body {
 }
 
 .text {
-    font-family: 'Neue-Ultrabold';
+    font-family: 'Montserrat', sans-serif;
     color: $text-color;
 }
 
 .text-2 {
-    font-family: 'Neue-Ultrabold';
+    font-family: 'Montserrat', sans-serif;
     color: $text-color;
 }
 
