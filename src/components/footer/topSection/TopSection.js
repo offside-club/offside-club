@@ -13,29 +13,31 @@ import PlayStoreLogo from '../../../assets/images/play_store_logo.svg';
 const TopSection = () => {
     return (
         <React.Fragment>
-            <Container className="my-5 top-section">
-                <Row>
-                    <Col>
-                        <Image src={FooterIllustration} width="100%" className="footer-phone-image" />
-                    </Col>
-                    <Col>
-                        <Row>
-                            <Typography.HeadingBold>Get your own commentary box with friends on Offside!</Typography.HeadingBold>
-                        </Row>
-                        <Row className='d-flex justify-content-end'>
-                            <Col xs={12} md={6}>
-                                <a href={constants.appStoreURL} target="_blank" rel="noopener noreferrer">
-                                    <Image src={AppStoreLogo} className="app-store-logo-home" />
-                                </a>
-                            </Col>
-                            <Col xs={12} md={6}>
-                                <a href={constants.playStoreURL} target="_blank" rel="noopener noreferrer">
-                                    <Image src={PlayStoreLogo} className="play-store-logo-home" />
-                                </a>
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
+            <Container className="footer-top-main-container">
+                <Container className="footer-top-container">
+                    <Row>
+                        <Col>
+                            <Image src={FooterIllustration} width="100%" className="footer-top-phone-image" />
+                        </Col>
+                        <Col xs={8} className='m-2'>
+                            <Row>
+                                <h1 className='display-4 text fs-2 fw-bold m-md-2 footer-top-heading'>Get your own commentary box with friends on Offside!</h1>
+                            </Row>
+                            <Row className='footer-store-logo-container'>
+                                <Col xs={6}>
+                                    <a href={constants.appStoreURL} target="_blank" rel="noopener noreferrer">
+                                        <Image src={AppStoreLogo} className="footer-store-logo app-store-logo-footer" />
+                                    </a>
+                                </Col>
+                                <Col xs={6}>
+                                    <a href={constants.playStoreURL} target="_blank" rel="noopener noreferrer">
+                                        <Image src={PlayStoreLogo} className="footer-store-logo play-store-logo-footer" />
+                                    </a>
+                                </Col>
+                            </Row>
+                        </Col>
+                    </Row>
+                </Container>
             </Container>
         </React.Fragment>
     );

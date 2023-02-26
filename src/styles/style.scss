@@ -22,7 +22,7 @@ $secondary: $color2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    // border: 1px solid red;
 }
 
 body {
@@ -106,21 +106,204 @@ $services-circle-border-radius: 500px;
 }
 
 // **************************************************FOOTER**************************************************
-.footer-contact-image {
-    width: 40px;
-    height: 40px;
+.footer-top-main-container {
+    padding-top: 50px;
+    overflow: hidden;
 }
 
-.footer-icons-container {
-    width: 80%;
+.footer-top-container {
+    border-radius: 20px;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    position: relative;
 }
 
-$services-icon-size: 30%;
-
-.services-icon {
-    width: $services-icon-size;
-    height: $services-icon-size;
+.footer-top-phone-image {
+    position: absolute;
+    width: 20%;
+    transform: rotate(-10deg);
+    top: -25px;
+    left: 25px;
 }
+
+.footer-top-heading {
+    font-size: 0.5rem !important;
+}
+
+.footer-store-logo-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.app-store-logo-footer {
+    width: 50px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.play-store-logo-footer {
+    width: 50px;
+}
+
+@media screen and (min-width:350px) {
+    .footer-top-phone-image {
+        top: -40px;
+    }
+
+    .footer-top-heading {
+        font-size: 0.6rem !important;
+    }
+}
+
+@media screen and (min-width:400px) {
+    .footer-top-heading {
+        font-size: 0.7rem !important;
+    }
+
+    .footer-store-logo-container {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:450px) {
+    .footer-top-main-container {
+        padding-top: 70px;
+    }
+
+    .footer-top-phone-image {
+        top: -60px;
+    }
+
+    .footer-top-heading {
+        font-size: 1rem !important;
+    }
+
+    .app-store-logo-footer {
+        width: 60px;
+        margin-top: -16px;
+        margin-bottom: -16px;
+    }
+
+    .play-store-logo-footer {
+        width: 60px;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .app-store-logo-footer {
+        width: 75px;
+        margin-top: -23px;
+        margin-bottom: -23px;
+    }
+
+    .play-store-logo-footer {
+        width: 75px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .footer-top-main-container {
+        padding-top: 125px;
+    }
+
+    .footer-top-container {
+        padding-top: 15px;
+    }
+
+    .footer-top-phone-image {
+        top: -100px;
+    }
+
+    .footer-top-heading {
+        font-size: 1.5rem !important;
+    }
+
+    .app-store-logo-footer {
+        width: 125px;
+        margin-top: -44px;
+        margin-bottom: -44px;
+    }
+
+    .play-store-logo-footer {
+        width: 125px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .footer-top-main-container {
+        padding-top: 150px;
+    }
+
+    .footer-top-container {
+        padding-top: 20px;
+    }
+
+    .footer-top-phone-image {
+        top: -125px;
+        left: 45px;
+    }
+
+    .footer-top-heading {
+        font-size: 2rem !important;
+    }
+
+    .footer-store-logo-container {
+        padding-bottom: 20px;
+    }
+
+    .app-store-logo-footer {
+        width: 150px;
+        margin-top: -52px;
+        margin-bottom: -52px;
+    }
+
+    .play-store-logo-footer {
+        width: 150px;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .footer-top-main-container {
+        padding-top: 215px;
+    }
+
+    .footer-top-phone-image {
+        top: -180px;
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+    .footer-top-heading {
+        font-size: 2.5rem !important;
+    }
+
+    .app-store-logo-footer {
+        width: 180px;
+        margin-top: -64px;
+        margin-bottom: -64px;
+    }
+
+    .play-store-logo-footer {
+        width: 180px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Media Queries
 @include media-breakpoint-up(sm) {
