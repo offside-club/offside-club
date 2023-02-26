@@ -22,7 +22,7 @@ $secondary: $color2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // border: 1px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -474,7 +474,20 @@ $services-circle-border-radius: 500px;
 }
 
 // ******************************************************FOOTER : BOTTOM******************************************************
+.footer-bottom-offside-logo {
+    width: 50%;
+    margin: auto;
+}
 
+// .footer-bottom-col-3-row{
+//     display: flex;
+
+// }
+
+.footer-bottom-social-icons {
+    width: 35px;
+    margin: 5px;
+}
 
 
 
