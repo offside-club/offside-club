@@ -10,7 +10,7 @@ const RewardsCard = ({ title, text, icon }) => {
                 <Card.Body className='p-0 m-0'>
                     <Image variant="left" src={icon} className='services-icon mb-3' width="30%" />
                     <Card.Title className='fs-1 fw-bold text-primary'>{title}</Card.Title>
-                    <Card.Text className="text-2">{text}</Card.Text>
+                    <Card.Text className="text-2 fs-3">{text}</Card.Text>
                 </Card.Body>
             </Card>
         </React.Fragment>
