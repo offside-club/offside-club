@@ -14,7 +14,7 @@ $secondary: $color2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    // border: 1px solid red;
 }
 
 body {
@@ -35,8 +35,72 @@ body {
     width: 100px;
 }
 
+.navbar-store-logo {
+    width: 60px;
+}
+
+.navbar-app-store-logo {
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
 .illustration {
     width: 100%;
+}
+
+@media screen and (min-width:450px) {
+    .navbar-store-logo {
+        width: 70px;
+    }
+
+    .navbar-app-store-logo {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .navbar-store-logo {
+        width: 85px;
+    }
+
+    .navbar-app-store-logo {
+        margin-top: -28px;
+        margin-bottom: -28px;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .navbar-store-logo {
+        width: 95px;
+    }
+
+    .navbar-app-store-logo {
+        margin-top: -33px;
+        margin-bottom: -33px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .navbar-store-logo {
+        width: 115px;
+    }
+
+    .navbar-app-store-logo {
+        margin-top: -40px;
+        margin-bottom: -40px;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .navbar-store-logo {
+        width: 130px;
+    }
+
+    .navbar-app-store-logo {
+        margin-top: -46px;
+        margin-bottom: -46px;
+    }
 }
 
 // *************************************************HOME SECTION*************************************************
