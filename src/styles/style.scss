@@ -1,9 +1,6 @@
 // Importing fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
 
-// Importing scss for video element
-@import "~video-react/styles/scss/video-react";
-
 @font-face {
     font-family: "Neue-Ultrabold";
     src: url("../assets/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf");
@@ -107,6 +104,11 @@ $services-circle-border-radius: 500px;
     width: 50px;
 }
 
+.introVideo {
+    height: 300px;
+    width: 100%;
+}
+
 @media screen and (min-width:400px) {
     .services-circle-top {
         height: 125px;
@@ -156,6 +158,28 @@ $services-circle-border-radius: 500px;
 
     .services-circle-col {
         font-size: 20px;
+    }
+
+    .introVideo {
+        height: 450px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .introVideo {
+        height: 500px;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .introVideo {
+        height: 600px;
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+    .introVideo {
+        height: 700px;
     }
 }
 

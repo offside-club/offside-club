@@ -1,13 +1,9 @@
 import React from 'react';
-import { Player, LoadingSpinner } from 'video-react';
-import introVideo from '../../../assets/videos/intro_video.mp4';
 
 const IntroVideo = () => {
     return (
         <React.Fragment>
-            <Player src={introVideo} autoPlay={true}>
-                <LoadingSpinner />
-            </Player>
+            <iframe className='introVideo' src="https://www.youtube.com/embed/smvn4EmqcqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </React.Fragment>
     );
 };
