@@ -4,8 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import FooterIllustration from '../../../assets/images/footer_illustration.svg';
-import Typography from '../../../util/Typography';
-import StoreLogos from '../../../util/StoreLogos';
 import constants from '../../../util/constants';
 import AppStoreLogo from '../../../assets/images/app_store_logo.svg';
 import PlayStoreLogo from '../../../assets/images/play_store_logo.svg';
