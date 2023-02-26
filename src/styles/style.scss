@@ -22,7 +22,7 @@ $secondary: $color2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    // border: 1px solid red;
 }
 
 body {
@@ -53,6 +53,10 @@ body {
 }
 
 // *************************************************HOME SECTION*************************************************
+.home-container {
+    margin-top: 70px;
+}
+
 .store-logos-home {
     max-width: 300px;
 }

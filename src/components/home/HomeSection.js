@@ -11,7 +11,7 @@ const HomeSection = () => {
     return (
         <React.Fragment>
             <MainContainer>
-                <Row className='mb-md-5 pb-md-5'>
+                <Row className='mb-md-5 pb-md-5 home-container'>
                     <Col>
                         <Row className='pt-md-5'>
                             <Typography.HeadingExtraBold>Can't Wait to Talk About the Match?</Typography.HeadingExtraBold>
