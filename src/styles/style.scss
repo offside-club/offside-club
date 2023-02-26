@@ -14,7 +14,7 @@ $secondary: $color2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // border: 1px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -29,11 +29,6 @@ body {
 .text-2 {
     font-family: 'Montserrat', sans-serif;
     color: $text-color;
-}
-
-.heading-regular {
-    // font-weight: 500;
-    // font-size: ;
 }
 
 .navbar-logo {
@@ -120,6 +115,42 @@ $services-circle-border-radius: 500px;
     }
 }
 
+@media screen and (min-width:450px) {
+    .services-circle-top {
+        height: 150px;
+        width: 300px;
+    }
+
+    .services-circle-bottom {
+        height: 150px;
+        width: 300px;
+    }
+
+    .services-circle-col {
+        font-size: 15px;
+    }
+
+    .services-circle-top-offside-logo {
+        width: 65px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .services-circle-top {
+        height: 160px;
+        width: 320px;
+    }
+
+    .services-circle-bottom {
+        height: 160px;
+        width: 320px;
+    }
+
+    .services-circle-col {
+        font-size: 16px;
+    }
+}
+
 @include media-breakpoint-up(sm) {
     .services-circle-top {
         height: 175px;
@@ -167,6 +198,24 @@ $services-circle-border-radius: 500px;
 }
 
 @include media-breakpoint-up(xl) {
+    .services-circle-top-offside-logo {
+        width: 100px;
+    }
+
+    .services-circle-top {
+        height: 230px;
+        width: 460px;
+    }
+
+    .services-circle-bottom {
+        height: 230px;
+        width: 460px;
+    }
+
+    .services-circle-col {
+        font-size: 23px;
+    }
+
     .introVideo {
         height: 600px;
     }

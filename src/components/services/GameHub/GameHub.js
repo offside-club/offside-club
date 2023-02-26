@@ -15,7 +15,7 @@ const GameHub = () => {
             <Row className='g-2'>
                 <ImageContainer
                     image={Phone1}
-                    caption="Non-money Prediction"
+                    caption="Prediction"
                     description="Predict the future and impress your friends"
                 />
                 <ImageContainer

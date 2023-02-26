@@ -16,9 +16,9 @@ const Services = () => {
             <MainContainer>
                 <Typography.HeadingExtraBold>A place that makes conversations as memorable as the matches.</Typography.HeadingExtraBold>
                 <Container>
-                    <Row>
+                    <Row className="d-lg-flex align-items-center">
                         <Col xs={12} lg={6}>
-                            <Image src={ServicesIllustration} className="illustration" />
+                            <Image src={ServicesIllustration} className="illustration d-block mx-auto" />
                         </Col>
                         <Col xs={12} lg={6}>
                             <ServicesCircle />

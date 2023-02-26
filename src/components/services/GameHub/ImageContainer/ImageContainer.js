@@ -9,7 +9,7 @@ const ImageContainer = ({ image, caption, description }) => {
             <Col xs={12} md={4}>
                 <Image src={image} width="75%" className='d-block mx-auto' />
                 <Typography.HeadingBold classes={['text-center mt-2']}>{caption}</Typography.HeadingBold>
-                <Typography.HeadingRegular classes={['text-primary', 'text-center']}>{description}</Typography.HeadingRegular>
+                <Typography.HeadingRegular classes={['text-primary', 'text-center', 'fw-bold']}>{description}</Typography.HeadingRegular>
             </Col>
         </React.Fragment>
     );
