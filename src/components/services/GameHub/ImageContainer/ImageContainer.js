@@ -8,8 +8,8 @@ const ImageContainer = ({ image, caption, description }) => {
         <React.Fragment>
             <Col xs={12} md={4}>
                 <Image src={image} width="75%" className='d-block mx-auto' />
-                <Typography.HeadingBold>{caption}</Typography.HeadingBold>
-                <Typography.HeadingRegular classes={['text-primary']}>{description}</Typography.HeadingRegular>
+                <Typography.HeadingBold classes={['text-center mt-2']}>{caption}</Typography.HeadingBold>
+                <Typography.HeadingRegular classes={['text-primary', 'text-center']}>{description}</Typography.HeadingRegular>
             </Col>
         </React.Fragment>
     );

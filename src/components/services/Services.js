@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import ServicesIllustration from '../../assets/images/services_illustration.svg';
-import ServicesCards from './ServicesCards/ServicesCards';
 import MainContainer from '../../util/MainContainer';
 import Typography from '../../util/Typography';
 import ServicesCircle from './ServicesCircle/ServicesCircle';
@@ -22,7 +21,6 @@ const Services = () => {
                             <Image src={ServicesIllustration} className="illustration" />
                         </Col>
                         <Col xs={12} lg={6}>
-                            {/* <ServicesCards /> */}
                             <ServicesCircle />
                         </Col>
                     </Row>
