@@ -2,27 +2,21 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 import Typography from '../../../util/Typography';
 import OffsideBlue from '../../../assets/images/offsideblue.svg';
 
 const MidSection = () => {
     return (
         <React.Fragment>
-            <Container style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL + "/assets/images/offsideblue.svg"})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                minHeight: '25vh'
-            }}>
-                <Row>
-                    <Typography.HeadingExtraBold>We'd love to hear from you!!</Typography.HeadingExtraBold>
+            <Container className='mt-3 mt-sm-5 footer-mid-container'>
+                <Image src={OffsideBlue} className="footer-mid-image" />
+                <Row className="footer-mid-heading-container footer-mid-heading-top-container">
+                    <Typography.HeadingExtraBold classes={['footer-mid-heading-top']}>We'd love to <br /> hear from you!!</Typography.HeadingExtraBold>
                 </Row>
-                <Row>
-                    <Typography.HeadingBold styles={{
-                        fontSize: '1rem!important'
-                    }}>Curious about what we are building?
-                        Write to us at contact@offside.club Or message us on WhatsApp: +91-8826060074.
+                <Row className="footer-mid-heading-container footer-mid-heading-bottom-container">
+                    <Typography.HeadingBold classes={['footer-mid-heading-bottom']}>Curious about what we are building? <br />
+                        Write to us at <span className='text-primary'>contact@offside.club</span> Or <br /> message us on WhatsApp: <span className='text-primary'>+91-8826060074</span>.
                     </Typography.HeadingBold>
                 </Row>
             </Container>

@@ -9,7 +9,7 @@ const Footer = () => {
         <React.Fragment>
             <Container className="footer">
                 <TopSection />
-                {/* <MidSection /> */}
+                <MidSection />
             </Container>
         </React.Fragment>
     );

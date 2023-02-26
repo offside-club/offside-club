@@ -22,7 +22,7 @@ $secondary: $color2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    // border: 1px solid red;
 }
 
 body {
@@ -355,13 +355,125 @@ $services-circle-border-radius: 500px;
 }
 
 
+// ******************************************************FOOTER : MID******************************************************
+.footer-mid-container {
+    position: relative;
+}
 
+.footer-mid-image {
+    width: 100%;
+    opacity: 0.2;
+}
 
+.footer-mid-heading-container {
+    position: absolute;
+    top: 0;
+}
 
+.footer-mid-heading-top {
+    font-size: 0.75rem !important;
+}
 
+.footer-mid-heading-bottom-container {
+    right: 0;
+    top: calc(100% - 35px);
+}
 
+.footer-mid-heading-bottom {
+    font-size: 0.5rem !important;
+}
 
+@media screen and (min-width:400px) {
+    .footer-mid-heading-top {
+        font-size: 1rem !important;
+    }
 
+    .footer-mid-heading-bottom-container {
+        right: 0;
+        top: calc(100% - 50px);
+    }
+
+    .footer-mid-heading-bottom {
+        font-size: 0.75rem !important;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .footer-mid-heading-top {
+        font-size: 1.5rem !important;
+    }
+
+    .footer-mid-heading-bottom-container {
+        right: 0;
+        top: calc(100% - 62px);
+    }
+
+    .footer-mid-heading-bottom {
+        font-size: 1rem !important;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .footer-mid-heading-top {
+        font-size: 2rem !important;
+    }
+
+    .footer-mid-heading-bottom-container {
+        right: 0;
+        top: calc(100% - 95px);
+    }
+
+    .footer-mid-heading-bottom {
+        font-size: 1.5rem !important;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .footer-mid-heading-top {
+        font-size: 2.25rem !important;
+    }
+
+    .footer-mid-heading-bottom-container {
+        right: 0;
+        top: calc(100% - 109px);
+    }
+
+    .footer-mid-heading-bottom {
+        font-size: 1.75rem !important;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .footer-mid-heading-top {
+        font-size: 2.75rem !important;
+    }
+
+    .footer-mid-heading-bottom-container {
+        right: 0;
+        top: calc(100% - 123px);
+    }
+
+    .footer-mid-heading-bottom {
+        font-size: 2rem !important;
+    }
+}
+
+@include media-breakpoint-up(xxl) {
+    .footer-mid-heading-top {
+        font-size: 3.5rem !important;
+    }
+
+    .footer-mid-heading-bottom-container {
+        right: 0;
+        top: calc(100% - 152px);
+    }
+
+    .footer-mid-heading-bottom {
+        font-size: 2.5rem !important;
+    }
+}
+
+// ******************************************************FOOTER : BOTTOM******************************************************
 
 
 
