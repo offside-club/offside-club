@@ -16,7 +16,7 @@ const App = () => {
       <Services />
       <Rewards />
       {/* <Testimonials /> */}
-      {/* <Footer /> */}
+      <Footer />
     </React.Fragment>
   );
 };
