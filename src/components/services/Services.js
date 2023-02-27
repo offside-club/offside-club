@@ -14,7 +14,7 @@ const Services = () => {
     return (
         <React.Fragment>
             <MainContainer>
-                <Typography.HeadingExtraBold>A place that makes conversations as memorable as the matches.</Typography.HeadingExtraBold>
+                <Typography.HeadingExtraBold classes={['text-center']}>A place that makes conversations as memorable as the matches.</Typography.HeadingExtraBold>
                 <Container>
                     <Row className="d-lg-flex align-items-center">
                         <Col xs={12} lg={6}>

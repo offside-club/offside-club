@@ -15,7 +15,7 @@ const NavBar = () => {
         <React.Fragment>
             <Navbar bg="secondary" variant="dark" fixed="top">
                 <Container>
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand href="https://www.offside.club/">
                         <img
                             alt="Logo"
                             src={LogoNavbar}
@@ -24,21 +24,15 @@ const NavBar = () => {
                     </Navbar.Brand>
                     <Nav className="ms-auto">
                         <Nav.Item>
-                            <Nav.Link href={constants.appStoreURL}>
+                            <Nav.Link href={constants.appStoreURL} target="_blank">
                                 <Image src={AppStoreLogo} className="navbar-store-logo navbar-app-store-logo" />
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link href={constants.playStoreURL}>
+                            <Nav.Link href={constants.playStoreURL} target="_blank">
                                 <Image src={PlayStoreLogo} className="navbar-store-logo navbar-play-store-logo" />
                             </Nav.Link>
                         </Nav.Item>
-                        {/* <a href={constants.appStoreURL}>
-                                <Image src={AppStoreLogo} className="navbar-store-logo navbar-app-store-logo" />
-                            </a>
-                            <a href={constants.playStoreURL}>
-                                <Image src={PlayStoreLogo} className="navbar-store-logo navbar-play-store-logo" />
-                            </a> */}
                     </Nav>
                 </Container>
             </Navbar>

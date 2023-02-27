@@ -10,7 +10,7 @@ const GameHub = () => {
     return (
         <React.Fragment>
             <Row>
-                <Typography.HeadingExtraBold classes={['mt-5']}>Game hub is unique to every match, combining:</Typography.HeadingExtraBold>
+                <Typography.HeadingExtraBold classes={['mt-5', 'text-center']}>Game hub is unique to every match, combining:</Typography.HeadingExtraBold>
             </Row>
             <Row className='g-2'>
                 <ImageContainer

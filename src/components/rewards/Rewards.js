@@ -27,7 +27,7 @@ const Rewards = () => {
     return (
         <React.Fragment>
             <MainContainer>
-                <Typography.HeadingExtraBold>Hangout with friends and win rewards</Typography.HeadingExtraBold>
+                <Typography.HeadingExtraBold classes={['text-center']}>Hangout with friends and win rewards</Typography.HeadingExtraBold>
                 <Container>
                     <Row>
                         <Col xs={12} md={4}>
