@@ -14,7 +14,7 @@ $secondary: $color2;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // border: 1px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -156,6 +156,8 @@ $services-circle-border-radius: 500px;
 
 .services-circle-top-offside-logo {
     width: 50px;
+    position: relative;
+    top: -2px;
 }
 
 .introVideo {
@@ -264,6 +266,7 @@ $services-circle-border-radius: 500px;
 @include media-breakpoint-up(xl) {
     .services-circle-top-offside-logo {
         width: 100px;
+        top: -4px;
     }
 
     .services-circle-top {
