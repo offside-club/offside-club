@@ -27,7 +27,7 @@ const BottomSection = () => {
                         <a href="https://www.offside.club/">
                             <Image src={instagram} className='footer-bottom-social-icons' />
                         </a>
-                        <a href="https://www.offside.club/">
+                        <a href="https://www.linkedin.com/company/offsideclub/" target="_blank" rel="noreferrer">
                             <Image src={linkedIn} className='footer-bottom-social-icons' />
                         </a>
                     </Col>
