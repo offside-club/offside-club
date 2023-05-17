@@ -18,7 +18,7 @@ const BottomSection = () => {
                         <Image src={OffsideBlue} className="footer-bottom-offside-logo mx-auto d-block" />
                     </Col>
                     <Col xs={12} sm={4} className="footer-bottom-col-2">
-                        <Typography.HeadingBold classes={['text-center', 'fs-5']}>Kalekik Inc.</Typography.HeadingBold>
+                        <Typography.HeadingBold classes={['text-center', 'fs-5']}>Firkie Sports India Pvt Ltd.</Typography.HeadingBold>
                     </Col>
                     <Col xs={12} sm={4} className="footer-bottom-col-3 d-flex justify-content-center align-items-center">
                         <a href="https://www.offside.club/">
