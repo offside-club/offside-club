@@ -1,0 +1,66 @@
+
+/*new rewards section css*/
+
+.RewardSection{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftSection{
+
+}
+.rightSection{
+  margin-left: -40px;
+
+}
+.middleSection{
+  margin-left: 40px;
+}
+.rewards_img{
+  margin-top: 30px;
+  float: right;
+}
+.rewards_img img{
+  height: 290px;
+  width: 430px;
+  border-radius: 16px;
+}
+.Rewardbox{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  float: left;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  margin-right: 10px;
+  height: 270px;
+}
+.centered{
+  text-align: center;
+}
+.centered h3{
+  font-size: 23px;
+  color: #3179DC;
+  margin: 0;
+}
+.inLine{
+  display: flex;
+  justify-content: center;
+}
+.inLine p{
+  color:#8A8A8A;
+  line-height: 1.3;
+
+}
+
+.centered img{
+  height: 50px;
+  width: 100px;
+  margin-top: 0;
+}
+
+
+
+

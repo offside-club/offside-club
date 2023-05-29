@@ -1,0 +1,30 @@
+.carousel{
+  width:60%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+ display: flex;
+justify-content: center;
+}
+.card img{ 
+  width: 200px;
+  padding: 3px;
+  margin: 3px;
+  object-fit: cover;
+}
+.card_active{
+transition: 300ms;
+}
+.card_left{
+  transform: translateX(-5%) scale(0.8);
+  transition: 300ms;
+  opacity: 0.5;
+}
+.card_right{
+  transform: translateX(5%) scale(0.8);
+  transition: 300ms;
+  opacity: 0.5;
+}
+
+
+/*https://learn.microsoft.com/en-us/certifications/exams/az-900/*/
