@@ -1,24 +1,25 @@
-import React from 'react';
-import './styles/style.scss';
-import Home from './components/home/Home';
-import Services from './components/services/Services';
-import Rewards from './components/rewards/Rewards';
-// import Testimonials from './components/testimonials/Testimonials';
-import Footer from './components/footer/Footer';
-import './assets/fonts/FontsFree-Net-NeueMachina-Ultrabold.ttf'
-import NavBar from './components/Navbar/NavBar';
+import logo from './logo.svg';
+import './App.css';
+import Homepage from "./components/Homepage/homepage.jsx"
+import About from "./components/About/About.jsx"
+import Rewards from "./components/Rewards/Rewards.jsx"
+import Testimony from './components/Testimony/Testimony.jsx';
+import Footer from "./components/Footer/Footer.jsx"
+import Header from './components/Navbar/Navbar';
+import Contest from './components/Contest/Contest';
+import Doubt from './components/Doubt/Doubt';
 
-const App = () => {
+function App() {
   return (
-    <React.Fragment>
-      <NavBar />
-      <Home />
-      <Services />
-      <Rewards />
-      {/* <Testimonials /> */}
-      <Footer />
-    </React.Fragment>
+    <>
+    <Header/>
+      <Homepage/>
+      <Rewards/>
+      <Contest/>
+      <Doubt/>
+      <Footer/>
+    </>
   );
-};
+}
 
 export default App;
