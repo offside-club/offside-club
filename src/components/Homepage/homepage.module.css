@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 .homepage{
     background-color: #000;
     border-radius:  0% 0% 55px 55px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 .homeBody{
     color:#fff;
@@ -22,4 +22,9 @@
 .SocialMedia img{
     height: 80px;
     width: 200px;
+}
+
+.heading{
+    font-weight: 700;
+    
 }

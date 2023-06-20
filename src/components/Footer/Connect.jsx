@@ -2,12 +2,12 @@ import React from "react";
 import styles from './Footer.module.css';
 import Insta from '../../assets/images/InstagramOctDen.png';
 import Twitter from '../../assets/images/TwitterOctDen.png';
-import AppStoreLogo from '../../assets/images/App_Store-Badge.svg';
-import PlayStoreLogo from '../../assets/images/Google_Play-Badge.svg';
+// import AppStoreLogo from '../../assets/images/App_Store-Badge.svg';
+// import PlayStoreLogo from '../../assets/images/Google_Play-Badge.svg';
 
 const Connect = ()=>{
     return (
-        <>
+        <div style={{width:'90%',margin:'auto'}}>
         <div className={styles.connectWith}>
             <div className={styles.connectHeading}>
                 <h1>Stay connected with <br/> the community</h1>
@@ -18,7 +18,7 @@ const Connect = ()=>{
                 <img alt="Logo" src={Insta} className={styles.insta}/>
             </div>                       
         </div>
-        </>
+        </div>
     )
 }
 

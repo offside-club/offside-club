@@ -4,8 +4,8 @@ import styles from "./Heading.module.css"
 function Heading({ heading, subheading }) {
   return (
     <div className={styles.heading}>
-      <h3>{heading}</h3>
-      <h5>{subheading}</h5>
+      <h3 style={{margin:0}}>{heading}</h3>
+      <h6 style={{margin:0}}>{subheading}</h6>
     </div>
   );
 }
