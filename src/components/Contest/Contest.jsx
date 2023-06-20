@@ -35,14 +35,14 @@ function Contest() {
             className={`${styles.containerBox} ${selectedOption === "reverseFantasy" ? styles.selectedOption : ""}`}
           >
             <h1>Reverse Fantasy</h1>
-            <p>Play daily quizzes</p>
+            <p>Make the worst 11 for every match</p>
           </div>
           <div
             onClick={() => handleOptionClick("predictions")}
             className={`${styles.containerBox} ${selectedOption === "predictions" ? styles.selectedOption : ""}`}
           >
             <h1>Predictions</h1>
-            <p>Play daily quizzes</p>
+            <p>Live predictions during live match</p>
           </div>
         </div>
         <div className={styles.rightSide}>
