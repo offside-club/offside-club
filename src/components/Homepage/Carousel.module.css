@@ -7,7 +7,7 @@
 justify-content: center;
 }
 .card img{ 
-  width: 200px;
+  width: 280px;
   padding: 3px;
   margin: 3px;
   object-fit: cover;
@@ -25,6 +25,17 @@ transition: 300ms;
   transition: 300ms;
   opacity: 0.5;
 }
-
+ 
+@media only screen and (max-width: 800px) {
+  .card_left{
+    display: none;
+  }
+  .card_right{
+    display: none;
+  }
+  .card img{
+    width: 280px;
+  }
+}
 
 /*https://learn.microsoft.com/en-us/certifications/exams/az-900/*/

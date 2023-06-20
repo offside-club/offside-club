@@ -2,7 +2,7 @@ import React from "react"
 import styles from './About.module.css';
 import Card from "../../util/Card";
 import Heading from "../../util/Heading";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 const About =()=>{
     return(

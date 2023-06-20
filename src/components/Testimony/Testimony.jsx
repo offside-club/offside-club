@@ -1,7 +1,7 @@
 import React from "react";
 import CardList from "../../util/TestimonyCard";
 import Heading from "../../util/Heading";
-import styles from "./Testimony.module.css";
+// import styles from "./Testimony.module.css";
 
 const Testimony = () =>{
 

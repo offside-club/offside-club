@@ -25,14 +25,14 @@ function Carousel({ images }) {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  });
 
   return (
     <div className={styles.slider_container}>
       <div className={styles.carousel}>
         {cards.map((item, i) => {
           const indexLeft = mod(index - 1, cards.length);
-          const indexRight = mod(index + 1, cards.length);
+          // const indexRight = mod(index + 1, cards.length);
 
           return (
             <div key={item.id} className={`${styles.card} ${styles.swiper_slide}`}>

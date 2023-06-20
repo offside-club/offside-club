@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./Testimony.module.css"
 import Person1 from '../assets/images/Rectangle 35 (2).png';
-import Person2 from '../assets/images/Rectangle 35 (3).png';
+// import Person2 from '../assets/images/Rectangle 35 (3).png';
 
 
 function CardList({ name, info }) {

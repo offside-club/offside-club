@@ -19,7 +19,7 @@
     padding: 10px;
     padding-top: 3px;
     padding-left: 20px;
-    line-height: 0.7;
+    line-height: 1.2;
     transition: background-color 0.1s; /* Add transition for smooth hover effect */
   }
   
@@ -44,13 +44,44 @@
     padding: 0;
   }
   .rightSide img {
-    height: 550px;
-    width: 350px;
     float: right;
-    margin-top: -40px;
+    margin-top: 20px;
+    height: 500;
+    width: auto;
   }
   
   .selectedOption{
     background-color: #232528;
+  }
+  
+
+  @media only screen and (max-width: 800px) {
+    .container{
+   
+      padding: 20px;
+      grid-template-columns: 100%;
+    
+  }
+  .rightSide img{
+    float: none;
+    
+  }
+  .rightSide {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .img{
+    width: 270px;
+  }
+  .rightSide{
+    margin-top: 50px;
+  }
+ .leftSide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
   }
   
