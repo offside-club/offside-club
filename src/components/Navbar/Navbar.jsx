@@ -34,7 +34,7 @@ const NavBar = () => {
           </li>
           <li>
             <a href="#!">
-              <div className={styles.Downloadsbtn}>21k+ Downloads</div>
+              <div className={styles.Downloadsbtn}>30k+ Downloads</div>
             </a>
           </li>
         </ul>

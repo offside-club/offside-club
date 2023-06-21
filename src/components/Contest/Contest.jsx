@@ -2,8 +2,8 @@ import React, { useState } from "react";
 // import Card from "../../util/Card";
 import Heading from "../../util/Heading";
 import styles from './Contest.module.css';
-import ReverseFantasy from '../../assets/images/prediction.png';
-import Prediction from '../../assets/images/fantasy.png';
+import ReverseFantasy from '../../assets/images/fantasy.png';
+import Prediction from '../../assets/images/Predictions.png';
 import Quizes from '../../assets/images/quizzes.png';
 
 
