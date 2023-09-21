@@ -11,7 +11,7 @@ const Footer = ()=>{
         <Connect/>
         <div className={styles.blackBackground}>
             <h1 className={styles.bold}>Get your own commentary <br/>box with friends on Offside!</h1>
-            <span>21k+ DOWNLOADS</span>
+            <span>30k+ DOWNLOADS</span>
             <div className={styles.social}>
                <a href='https://apps.apple.com/in/app/offsideclub/id6444310420' target='_blank'> <img alt="Logo" src={AppStoreLogo} className={`${styles.logo} ${styles.AppStoreLogo}`}/></a>
                <a href='https://play.google.com/store/apps/details?id=com.offsideclub' target='_blank'><img alt="Logo" src={PlayStoreLogo} className={`${styles.logo} ${styles.PlayStoreLogo}`}/></a>
