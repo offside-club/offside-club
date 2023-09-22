@@ -4,14 +4,15 @@ import PlayStoreLogo from '../../assets/images/playstore.png';
 import OffsideLogo from '../../assets/images/offsideblue.svg'
 import Insta from '../../assets/images/InstagramOctDen.png';
 import styles from './Navbar.module.css';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
     <section className={styles.navigation}>
       <div className={styles.brand}>
-        <a href="#!">
+        <Link to="/">
           <img src={OffsideLogo} alt="offside logo" />
-        </a>
+        </Link>
       </div>
       <nav>
         <div className={styles.nav_mobile}><a id="navbar-toggle" href="#"><span></span></a></div>

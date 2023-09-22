@@ -6,9 +6,12 @@ import Footer from "./components/Footer/Footer.jsx"
 import Header from './components/Navbar/Navbar';
 import Contest from './components/Contest/Contest';
 import Doubt from './components/Doubt/Doubt';
+import Terms from './components/TermCondition/index.jsx';
 import './App.css';
+import { useRoutes } from "react-router";
 
-function App() {
+
+const Home = () => {
   return (
     <>
       <Header />
@@ -20,5 +23,28 @@ function App() {
     </>
   );
 }
+
+const router = [
+  {
+    path: '',
+    children: [
+      {
+        path: '',
+        children: [
+          { path: '/', element: <Home /> },
+          { path: 'Term_Condition', element: <Terms /> },
+          { path: '*', element: <Home /> }
+        ]
+      }
+    ]
+  },
+
+];
+
+const App = () => {
+  const Routes = useRoutes(router);
+  return Routes
+}
+
 
 export default App;
