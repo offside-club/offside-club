@@ -1,0 +1,114 @@
+@import "../../../styles/index.scss";
+
+.container {
+  background-color: $blackBg;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 986.72px;
+  position: relative;
+  padding: 4%;
+
+  @media screen and (max-width: $medium) {
+    height: 100%;
+  }
+
+  .downloads_section {
+    text-align: center;
+    margin: 4rem 0rem 0rem 0rem;
+
+    @media screen and (max-width: $medium) {
+      margin: 1rem 0rem 0rem 0rem;;
+    }
+
+    h2 {
+      color: $textColor;
+
+      @media screen and (max-width: $medium) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .rating_section {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    @media screen and (max-width: $medium) {
+      flex-direction: column;
+      margin: 1rem 0;
+    }
+
+    .rating {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem 0;
+
+      @media screen and (max-width: $medium) {
+
+        
+        flex-direction: row-reverse;
+
+        a {
+          display: none;
+        }
+      }
+
+      h2 {
+        margin-bottom: 0rem;
+        color: $fluroscentBg;
+
+        @media screen and (max-width: $medium) {
+          font-size: 42px;
+          line-height: 40px;
+        }
+      }
+
+      .largeText {
+        margin-bottom: 1rem;
+        color: $fluroscentBg;
+        @media screen and (max-width: $medium) {
+          font-size: 120px;
+          line-height: 90px;
+        }
+      }
+    }
+  }
+
+  .store_buttons {
+    display: none;
+    a {
+      margin: 0 1rem;
+
+      @media screen and (max-width: $large) {
+        margin: 1rem ;
+      }
+
+      @media screen and (max-width: $medium) {
+        margin: 1rem 0rem;
+      }
+    }
+    @media screen and (max-width: $large) {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-evenly;
+      max-width: 100%;
+      top: 0%;
+      left: 0%;
+      transform: translate(-0%, -0%);
+      margin-top: 1rem;
+    }
+    @media screen and (max-width: $medium) {
+      flex-direction: column;
+    }
+  }
+}

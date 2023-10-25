@@ -1,0 +1,11 @@
+@import '../../../styles/index.scss';
+
+.container {
+  background-color: $fluroscentButton;
+  width: auto;
+  height: auto;
+  min-width: 133px;
+  min-height: 67px;
+  padding: 16px, 40px, 16px, 40px;
+  border-radius: 16px;
+}

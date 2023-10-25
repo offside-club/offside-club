@@ -1,0 +1,66 @@
+@import "../../../styles/index.scss";
+
+.container {
+  background-color: $background;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55rem;
+  position: relative;
+  overflow: hidden;
+
+  @media screen and (max-width: $large){
+    height: 40rem;
+  }
+
+  .image_section {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    bottom: -5rem;
+    display: flex;
+    align-items: center;
+
+   
+
+    img {
+      @media screen and (max-width: $large){
+        transform: scale(0.75);
+      }
+    }
+
+    .image1 {
+      right: -5rem;
+      @media screen and (max-width: $large){
+        right: -10rem;
+      }
+    }
+
+    .image3 {
+      left: -5rem;
+      @media screen and (max-width: $large){
+        left: -10rem;
+      }
+    }
+
+    .image2 {
+      z-index: 1;
+
+      @media screen and (max-width: $large){
+        position: relative;
+        bottom: -5rem !important;
+      }
+    }
+
+    .image1, .image3 {
+      position: relative;
+      bottom: -7rem;
+      @media screen and (max-width: $large){
+        bottom: -10rem;
+      }
+    }
+  }
+
+}

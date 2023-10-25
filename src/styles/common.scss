@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+        display: none !important;
+    }
+}
+
+button {
+    border-color: transparent;
+}

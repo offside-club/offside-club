@@ -1,0 +1,57 @@
+@import "../../../styles/index.scss";
+
+.container {
+  background-color: $background;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 35rem;
+  padding: 4%;
+  width: 100%;
+  @media screen and (max-width: $medium) {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    align-items: center;
+    justify-content: flex-end;
+
+    @media screen and (max-width: $medium) {
+      flex-direction: column;
+      height: auto;
+    }
+
+    a {
+      text-decoration: none;
+      @media screen and (max-width: $medium) {
+        transform: scale(0.5);
+        margin-bottom: -1rem;
+      }
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      img {
+        margin-top: 2rem;
+        margin-left: 1rem;
+      }
+    }
+    p {
+      color: $textColor;
+      margin-top: 2rem;
+
+      @media screen and (max-width: $medium) {
+        font-size: 16px;
+      }
+    }
+  }
+
+}
