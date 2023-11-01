@@ -1,0 +1,52 @@
+@import '../../../styles/index.scss';
+
+.container {
+  padding: 3.125rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 34.5rem;
+  height: 35.25rem;
+  background-color: $darkBackground;
+  border-radius: 1rem;
+  border: 1px solid $blogBorder;
+  overflow: hidden;
+
+  @media screen and (max-width: $largeTabletLandscape){
+    padding: 2rem;
+    height: auto;
+  }
+
+  @media screen and (max-width: $medium){
+    padding: 1.5rem;
+    height: auto;
+  }
+
+  .img {
+    border-radius: 0.5rem;
+    height: 20.5rem;
+    width: 27.5rem;
+  }
+
+
+  .sportName {
+    font-family: 'Poppins-Regular';
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    color: $textColor1;
+
+    @media screen and (max-width: $medium){
+      font-size: 16px;
+    }
+  }
+
+  .date {
+    color: $textBody;
+  }
+
+  .dotCont{
+    color: $textBody;
+    font-size: 24px;
+    margin: 0 0.5rem ;
+  }
+}

@@ -1,0 +1,18 @@
+@import '../../styles/index.scss';
+
+.container {
+    display: flex;
+    flex:1;
+    // height: 100vh;
+    // width: 100vw;
+    flex-direction: column;
+    background-color: $background;
+
+    .blogsContainer{
+        padding:  3.125rem 6.25rem;
+        @media screen and (max-width: $medium){
+            align-items: center;
+            padding: 4%;
+          }
+    }
+}

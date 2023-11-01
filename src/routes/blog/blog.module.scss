@@ -1,0 +1,80 @@
+@import '../../styles/index.scss';
+
+.container {
+    display: flex;
+    flex:1;
+    // height: 100vh;
+    // width: 100vw;
+    flex-direction: column;
+    background-color: $background;
+
+    .blogsContainer{
+        padding:  3.125rem 6.25rem;
+
+        @media screen and (max-width: $largePhone){
+            padding:  1rem 1rem;
+          }
+
+        .blog-row{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+    
+            @media screen and (max-width: $medium){
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+              }
+        }
+    }
+
+    .largeImge{
+        width: '100%';
+        height: 58rem;
+        border-radius: 1.375rem;
+    }
+
+    .title2{
+        color: $white;
+        @media screen and (max-width: $largePhone){
+            font-size: 32px;
+            line-height: 36px;
+          }
+    }
+
+    .text4{
+        @media screen and (max-width: $largePhone){
+            font-size: 18px;
+            line-height: 28px;
+          }
+    }
+
+    .mt-104{
+        @media screen and (max-width: $largePhone){
+        margin-top: 2rem;
+        }
+    }
+
+    .mt-162{
+        @media screen and (max-width: $largePhone){
+            margin-top: 3rem;
+        }
+    }
+
+    .ph-9{
+        padding: 0 9.125rem;
+        @media screen and (max-width: $medium){
+            padding: 0;
+          }
+    }
+
+    
+
+    .share-mr{
+        margin-top: 0;
+        @media screen and (max-width: $medium){
+            margin-top: 2rem;
+          }
+    }
+}

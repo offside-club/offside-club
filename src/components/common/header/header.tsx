@@ -1,11 +1,15 @@
+"use client"
 //styles
 import Image from "next/image";
 import styles from "./header.module.scss";
 //types
 import PrimaryButton from "../primaryButton";
 import OffsideLogo from "../offsideLogo";
+import { useRouter } from 'next/navigation';
+
 
 const Header = () => {
+  const router = useRouter();
   return (
     <div className={styles.container}>
       <div>
@@ -26,7 +30,7 @@ const Header = () => {
         </div>
       </div>
 
-      <PrimaryButton text={"Blog"} />
+      <PrimaryButton onClick={() => { router.replace('/blogs'); }} text={"Blog"} />
     </div>
   );
 };

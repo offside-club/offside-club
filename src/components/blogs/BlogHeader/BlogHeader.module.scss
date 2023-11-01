@@ -1,0 +1,42 @@
+@import '../../../styles/index.scss';
+
+.container {
+  padding: 2% 4% ;
+  display: flex;
+  background-color: $darkHeader;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+ 
+
+    @media screen and (max-width: $medium){
+      flex-direction: column;
+      gap:2rem;
+      padding: 1.5rem 6rem ;
+    }
+
+  .blogText {
+    font-family: 'Poppins-SemiBold';
+    font-size: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    color: $white;
+}
+
+.imgMr{
+  margin-right: 2rem;
+  @media screen and (max-width: $medium){
+   margin: 0;
+  }
+}
+
+.downloadInfo{
+  display: flex;
+  @media screen and (max-width: $large){
+    display: none;
+  }
+}
+
+}

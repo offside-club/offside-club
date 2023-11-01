@@ -78,6 +78,14 @@
     margin: 0;
 }
 
+.boldHeader {
+    font-family: 'Poppins-Bold';
+    font-size: 48px;
+    letter-spacing: 0em;
+    margin: 0;
+    color: $white;
+}
+
 .text1 {
     font-family: 'Poppins-SemiBold';
     font-size: 24px;
@@ -104,6 +112,16 @@
     margin: 0;
 }
 
+.text4 {
+    font-family: 'Poppins-Regular';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    margin: 0;
+    color: $white;
+}
+
 .list {
     font-family: 'Poppins-Regular';
     font-size: 20px;
@@ -112,6 +130,16 @@
     letter-spacing: 0em;
     margin: 0;
 }
+
+.blogTitle {
+    font-family: 'Poppins-Bold';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    color: $SmokeWhite;
+    margin: 0;
+  }
+
 
 .subtitle3 {
     font-family: 'Poppins-Bold';
@@ -134,6 +162,15 @@
     line-height: 21px;
     letter-spacing: 0em;
     margin: 0;
+}
+
+.name {
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin: 0;
+    color: $SmokeWhite;
 }
 
 .background {
@@ -369,6 +406,9 @@
     margin-right: 1.75rem;
 }
 
+.mr-32 {
+    margin-right: 2rem;
+}
 
 //marginbottom
 
@@ -406,6 +446,11 @@
 .mb-24 {
     margin-bottom: 1.5rem;
 }
+
+.mb-28 {
+    margin-bottom: 1.75rem;
+}
+
 
 .mb-37 {
     margin-bottom: 2.3rem;
@@ -493,6 +538,14 @@
 .mt-96 {
     margin-top: 6rem;
 }
+.mt-104 {
+    margin-top: 6.5rem;
+}
+.mt-162 {
+    margin-top: 10.125rem;
+}
+
+
 
 // zindex
 .z2 {
@@ -514,8 +567,16 @@
     margin-left: 0.688rem;
 }
 
+.ml-16 {
+    margin-left: 1rem;
+}
+
 .ml-20 {
     margin-left: 1.25rem;
+}
+
+.ml-24 {
+    margin-left: 1.5rem;
 }
 
 .align_text_center {
@@ -548,3 +609,25 @@
     align-items: center;
     justify-content: center;
 }
+
+
+.gap-30{
+    gap: 30px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.smokeWhite{
+    color: $SmokeWhite;
+}
+
+.smokeWhite{
+    color: $SmokeWhite;
+}
+
+.date{
+    color: $textDate;
+}
+
