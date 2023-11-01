@@ -20,7 +20,7 @@ const PrimaryButton = ({ rightIcon, leftIcon, text, border, buttonType = ButtonT
     }, [buttonType])
 
     return (
-        <button className={buttonstyle} {...otherProps}  >
+        <button className={buttonstyle} >
             <>{leftIcon && leftIcon}</>
             {text && (<p className={classNames(styles['text1'], styles["background"])}>{text}</p>)}
             <>{rightIcon && rightIcon}</>
